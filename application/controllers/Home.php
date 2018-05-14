@@ -21,4 +21,23 @@ class Home extends CI_Controller {
 		);
 		$this->load->view('template',$viewData);
 	}
+
+	public function adduserregdata()
+	{
+		$data = array('name' => $_POST['name'] ,
+		'mobile' => $_POST['mobile'] ,
+		'email' => $_POST['email'] ,
+		'password' => $_POST['password']  );
+
+		$this->db->insert("user_register",$data);
+	}
+
+	public function userloggdata()
+	{
+		$this->load->model("user_model");
+		$data = $_POST['data'];
+		$ress = $this->user_model->userlog($data);
+		echo json_encode($ress);
+	}
+
 }
