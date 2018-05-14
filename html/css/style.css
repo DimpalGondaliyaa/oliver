@@ -1,0 +1,18 @@
+/* global style sheet */
+
+
+
+/*==========================home css=====================*/
+.homenavwapp
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+ul#nav-mobile {
+    font-weight:  bold;
+    color: #666666;
+}
+
+ul#nav-mobile li a {
+    color:  #666666;
+}

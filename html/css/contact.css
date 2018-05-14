@@ -1,0 +1,72 @@
+.main
+{
+	background: #F6F7F1;
+}
+.contitle {
+    text-align:  center;
+    font-size: 35px;
+    text-transform:  capitalize;
+    padding:  41px;
+    font-weight: 500;
+    color: #666666;
+}
+.conrow
+{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.email-title {
+    text-transform:  capitalize;
+    text-align:  center;
+    font-size: 19px;
+    font-weight:  500;
+    color: #003333;
+}
+.box-content {
+    text-align:  center;
+    font-size:  18px;
+    color: #666666;
+}
+.col.s12.m12.mainbox {
+    padding-bottom:  19px;
+}
+.email-title i {
+    position:  relative;
+    font-size: 19px;
+    top: 4px;
+    right: 7px;
+}
+a.btn.linka {
+    background:  #003333;
+    color: #fff;
+    border-radius:  50px;
+    height: 45px;
+    width: 45px;
+    padding:  5px;
+    text-align:  center;
+}
+.linkbox-content {
+    width:  50%;
+    margin:  0 auto;
+    padding-top:  18px;
+}
+
+.border-box {
+    width: 70%;
+    border: 1px dotted #00333340;
+    margin:  0 auto;
+    padding:  25px;
+    margin-bottom:  18px;
+}
+a.waves-effect.waves-light.sendbtnn {
+    width:  30%;
+    background: #003333;
+    height:  43px;
+    line-height: 40px;
+    font-size:  19px;
+}
+
+.sendbtn a {
+    text-align:  center;
+    float:  right;
+}
