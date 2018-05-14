@@ -1,0 +1,244 @@
+.srchbox-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #003333;
+    color: ghostwhite;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+}
+.secondbox {
+    background: #00c1ec;
+    padding: 25px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.top-box .row {
+    margin-bottom: 0px;
+}
+.s-box h5 {
+    font-family: arial;
+    font-size: 18px;
+    text-align: center;
+}
+.x-box {
+    position: relative;
+    padding: 25px;
+}
+.x-box-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.xBox {
+    position: relative;
+    padding: 15px;
+    border: 3px solid #999999;
+    border-radius: 15px;
+    height: auto;
+    overflow: hidden;
+} 	
+.ttl-row {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+.ttl-row h3 {
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 52px;
+}
+.right-txt {
+    line-height: 76px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    float: right;
+    padding-bottom: 0px;
+    color: #00ccff;
+    font-size: 111px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+span.x-left {
+    font-size: 52px;
+    line-height: 76px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    right: 0;
+    padding-bottom: 0px;
+    color: #00ccff;
+}
+.seulement-box {
+    font-size: 36px;
+    line-height: normal;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: #00ccff;
+    position: relative;
+    top: -20px;
+    text-align: right;
+    margin-right: 37px;
+    overflow: hidden;
+    width: calc(100% - 15%) !important;
+}
+
+.home-testimonial .client-testi .home-testi-left .testi-grid-view ul li p {
+    float: left;
+    width: 100%;
+    font-size: 17px;
+    text-align: left;
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 40px;
+    background: url(../images/check-mark.png)no-repeat left 9px;
+    color: #666;
+    margin-left: 24px;
+}
+.x-list li.item p {
+    width: 100%;
+    font-size: 17px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: #666;
+    margin-left: 25px;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.x-list li.item p:before element
+{
+	    content: "\f00c";
+}
+.r-text{
+	    color: #00ccff;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 0px;
+}
+.lbl-left {
+    font-size: 16px;
+    margin-top: -25px;
+}
+
+.list-title {
+    position: relative;
+    padding: 25px 0px;
+}
+.list-title h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.list-title span {
+    color: #00ccff;
+}
+.list-box ul {
+    display: block;
+    position: relative;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 51px;
+    color: #666;
+}
+.list-box ul i {
+	color: #0cf;
+}
+
+.list-box ul li {
+    line-height: 65px;
+}
+.p-text p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #666;
+    padding-left: 35px;
+}	
+.rendze-box {
+    position: relative;
+    padding: 25px;
+}
+.rendze-box i {
+    font-size: 100px;
+    font-weight: 100;
+    color: #00ccff;
+    text-shadow: 0px 3px 7px #00000057;
+}
+.rendze-box span {
+    padding: 25px;
+    font-size: 22px;
+    box-shadow: 0px 1px 7px #0000003d;
+    border-radius: 7px;
+}
+
+.swt-box {
+    position: relative;
+    box-shadow: 0px 2px 7px #0000004a;
+}
+
+.swt-box h3 {
+    margin: 0 auto;
+    text-align: left;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    min-height: 150px;
+    overflow: hidden;
+    height: auto;
+    color: #fff;
+    font-weight: bold;
+}
+.box-1 {
+    background: #99ccff;
+    padding: 50px;
+}
+.box-2 {
+    background: #2a90a6;
+    padding: 50px;
+}
+.box-3 {
+    background: #f8d8c1;
+    padding: 50px;
+}
+.box-footer {
+    padding: 10px 25px;
+}
+.box-footer h5 {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #007390;
+}
+.box-footer h6 {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 19px;
+}
+.bottom-box {
+    position: relative;
+    height: auto;
+    background: #EAEDEF;
+    padding: 25px;
+}
+.tagline h4 {
+    padding: 15px 0px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+.btn-sky {
+    background: #00ccff;
+    padding: 0px 25px;
+    height: auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px 1px #0000007d;
+}
+.b-tg{
+   font-size: 22px;
+    text-align: center;
+}
