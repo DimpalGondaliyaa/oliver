@@ -1,38 +1,98 @@
-<div class="container-fullwidth opcontainer">
-	<div class="row oproww">
-		<div class="col s12 m6 opcol">
-			<div class="ophtitle">
-				comment ca marche?
-			</div>
-			<div class="ophcontent">
-				Wixicode explique en quelques etapes simple
-			</div>
-		</div>
-		<div class="col s12 m6 opcoll">
-			<div class="ophimg">
-				<img src="<?php echo base_url(); ?>html/images/h.jpg">
+<div class="main">
+	<div class="mainBox">
+		<div class="row">
+			<div class="top-container-box">
+				<div class="max-width-op">
+					<div class="col s12 m8">
+					<div class="title-box">
+						<h4>COMMENT CA MARCHE ?</h4>
+						<h5>Wixicode explique en quelques etapes simple</h5>
+					</div>
+					</div>
+					<div class="col s12 m4">
+						<div class="left-img">
+							<img src="<?php echo base_url(); ?>html/images/business-presentation1.png" class="responsive-img">
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
-
-<div class="main">
-	<div class="howtitle">
-		Prenons l'exemple de David qui souhaite vendre son telephone a Marie
-	</div>
-
-	<div class="workrow row">
-		<div class="col s12 m4 workcol">
-			<div class="workimg">
-				<img src="<?php echo base_url(); ?>html/images/1.jpg">
+<div class="white-box">
+	<div class="row">
+		<div class="max-wide">
+			<div class="white-box-title">
+				<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h5>
 			</div>
-		</div>
-		<div class="col s12 m8 workcol">
-			<div class="worktitlee">
-				Devid Maria crrent chacun leur compte sur wixicode.fr
+
+			<div class="row">
+				<div class="col s12 m4">
+					<img src="<?php echo base_url(); ?>html/images/placeholder-blue.png" class="responsive-img">
+				</div>
+				<div class="col s12 m8">
+					<div class="descr">
+						<p><b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </b></p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+					</div>
+				</div>
 			</div>
-			<div class="workcon">
-				cust simple clust it.
+			<div class="row">
+				<div class="col s12 m4 right">
+					<img src="<?php echo base_url(); ?>html/images/placeholder-blue.png" class="responsive-img">
+				</div>
+				<div class="col s12 m8">
+					<div class="descr">
+						<p><b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </b></p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m4">
+					<img src="<?php echo base_url(); ?>html/images/placeholder-blue.png" class="responsive-img">
+				</div>
+				<div class="col s12 m8">
+					<div class="descr">
+						<p><b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </b></p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m4 right">
+					<img src="<?php echo base_url(); ?>html/images/placeholder-blue.png" class="responsive-img">
+				</div>
+				<div class="col s12 m8">
+					<div class="descr">
+						<p><b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </b></p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m4">
+					<img src="<?php echo base_url(); ?>html/images/placeholder-blue.png" class="responsive-img">
+				</div>
+				<div class="col s12 m8">
+					<div class="descr">
+						<p><b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </b></p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="bottom-box">
+					<div class="b-Box valign-wrapper">
+						<div class="col s12 m10">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+						<div class="col s12 m2" style="margin-bottom: 15px;">
+							<button class="btn btn-more-view"><i class="material-icons">send</i></button>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

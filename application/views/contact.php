@@ -46,23 +46,25 @@
 
 			<div class="col s12 m12 linkbox">
 				<div class="linkbox-content">
-					<div class="col s12 m4">
+					<ul>
+					<li>
 						<div class="link">
 							<a class="btn linka" href="#"><i class="fab fa-twitter"></i></a>
 						</div>
-					</div>
+					</li>
 
-					<div class="col s12 m4">
+					<li>
 						<div class="link">
 							<a class="btn linka" href="#"><i class="fab fa-facebook-f"></i></a>
 						</div>
-					</div>
+					</li>
 
-					<div class="col s12 m4">
+					<li>
 						<div class="link">
 							 <a class="btn linka" href="#"><i class="fab fa-linkedin-in"></i></a>
 						</div>
-					</div>
+					</li>
+				</ul>
 				</div>
 			</div>
 

@@ -15,7 +15,7 @@ $(function()
 				if(check.status=='ok')
 				{
 					 swal("Your login Successfully.");
-					window.location.href=baseurl+"admin";
+					window.location.href=baseurl+"Admin_contact";
 					/*$('form[name=user_login]').html('');*/
 				}
 				else if(check.status=='fail')
