@@ -6,6 +6,9 @@ class Admin_contact extends CI_Controller {
 	
 	public function index()
 	{		
+		$c = $this->db->query("select * from contact");
+		$contactData = $c->result_array();
+
 		$headerData = array(
 			"pageTitle" => "Admin_contact",
 			"stylesheet" => array("admin_contact.css")
@@ -15,7 +18,7 @@ class Admin_contact extends CI_Controller {
 		);
 		$viewData = array(
 			"viewName" => "admin_contact",
-            "viewData" => array(),
+            "viewData" => array('contactData'=>$contactData),
 			"headerData" => $headerData,
 			"footerData" => $footerData	
 		);
