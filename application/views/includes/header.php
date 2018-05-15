@@ -52,7 +52,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
-    <header>
+   <!--  <header>
          <nav>
             <div class="nav-wrapper">
               <a href="#" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png" class="responsive-img
@@ -64,16 +64,16 @@
               </ul>
             </div>
           </nav>
-    </header>
+    </header> -->
 <body>
 
     <div class="navdiv">
      <nav>
         <div class="nav-wrapper homenavwapp">
-          <a href="#" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png"></a>
+          <a href="<?php echo base_url(); ?>home" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png"></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down headul">
-            <li><a href="sass.html">buy</a></li>
-            <li><a href="badges.html">sell</a></li>
+            <li><a href="#">buy</a></li>
+            <li><a href="#" class="borderleft">sell</a></li>
             <li><a href="collapsible.html">Operation </a></li>
              <li><a href="collapsible.html">blog </a></li>
               <li><a href="<?php echo base_url(); ?>Contact">Contact</a></li>

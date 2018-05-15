@@ -70,3 +70,15 @@ ul#nav-mobile {
 ul#nav-mobile li a {
     color:  #666666;
 }
+a.waves-effect.waves-light.btn.userreegbtn {
+    background:  none;
+    box-shadow:  none;
+}
+
+a.waves-effect.waves-light.btn.userlogbtn {
+    background: none;
+    border: 2px solid #03c0e8;
+    box-shadow:  none;
+    width:  112%;
+    color: #00bfe8 !important;
+}
