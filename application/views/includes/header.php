@@ -59,7 +59,7 @@
           <ul id="nav-mobile" class="right hide-on-med-and-down headul">
             <li><a href="sass.html">J'achète</a></li>
             <li><a href="badges.html">je Vends</a></li>
-            <li><a href="collapsible.html">fonctionnement </a></li>
+            <li><a href="<?php echo base_url(); ?>Operation">fonctionnement </a></li>
             <li><a href="collapsible.html">blog </a></li>
             <li><a href="<?php echo base_url(); ?>Contact">Contact</a></li>
             <li><a class="waves-effect waves-light btn userreegbtn">S'inscrire</a></li>

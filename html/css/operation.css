@@ -1,0 +1,17 @@
+.container-fullwidth.opcontainer {
+    background:  #51678e;
+    color:  #fff;
+}
+.row.oproww {
+    max-width:  1200px;
+    padding:  80px;
+}
+
+.ophtitle {
+    font-size: 33px;
+    text-transform:  uppercase;
+    font-weight: 600;
+}
+.ophcontent {
+    font-size: 22px;
+}
