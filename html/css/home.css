@@ -177,6 +177,7 @@ span.x-left {
 }
 
 .swt-box {
+    margin-bottom: 60px;
     position: relative;
     box-shadow: 0px 2px 7px #0000004a;
 }
@@ -280,4 +281,14 @@ span.x-left {
     font-size: 18px !important;
     text-transform: capitalize;
     text-shadow: 0px 1px 2px #0000003b;
+}
+
+.viewmorewbtn {
+       background: #51678e;
+    height: 42px !important;
+    width: 42px !important;
+}
+a.btn-floating.btn-large.waves-effect.waves-light.viewmorewbtn i {
+    line-height:  1;
+    font-size:  24px;
 }

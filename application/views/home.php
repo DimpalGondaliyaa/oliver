@@ -136,7 +136,7 @@
                         </div>
                         <div class="box-footer">
                             <h5>Acheteur</h5>
-                            <h6>découvrez vos avantages</h6>
+                            <h6>découvrez vos avantages  <a class=" btn-floating btn-large waves-effect waves-light viewmorewbtn"><i class="material-icons">send</i></a></h6>
                         </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                         </div>
                         <div class="box-footer">
                             <h5>Vendeur</h5>
-                            <h6>découvrez vos avantages</h6>
+                            <h6>découvrez vos avantages <a class=" btn-floating btn-large waves-effect waves-light viewmorewbtn"><i class="material-icons">send</i></a></h6>
                         </div>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                         </div>
                         <div class="box-footer">
                             <h5>Litiges</h5>
-                            <h6>découvrez vos avantages</h6>
+                            <h6>découvrez vos avantages <a class=" btn-floating btn-large waves-effect waves-light viewmorewbtn"><i class="material-icons">send</i></a></h6>
                         </div>
                     </div>
                 </div>
@@ -173,7 +173,8 @@
                     <h4>créez votre compte et générez vos wikicode gratuitement des maintenant</h4>
                 </div>
                 <div class="center">
-                    <button type="button" class="btn bnt-flat btn-sky">Incription</button>
+                   <!--  <a class="footerbtn waves-effect waves-light btn userreegbtn">S'Incription</a> -->
+                    <button type="button" class="btn bnt-flat btn-sky ">Incription</button>
                 </div>
                 <div>
                     <p class="b-tg">Si Vous avez des questions consultez notre <span>FAQ</span> ou <span>Contactez-nous</span></p>
