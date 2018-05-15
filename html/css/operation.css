@@ -4,8 +4,10 @@
 }
 .row.oproww {
     max-width:  1200px;
-    padding:  80px;
+    padding: 80px;
+    height: 250px;
 }
+
 
 .ophtitle {
     font-size: 33px;
@@ -14,4 +16,19 @@
 }
 .ophcontent {
     font-size: 22px;
+}
+.ophimg img {
+    /* height: 116px; */
+    position:  relative;
+    width:  183px;
+}
+
+.col.s12.m6.opcoll {
+    position:  relative;
+    bottom: 24px;
+}
+.howtitle {text-align:  center;padding:  24px;color: #51678e;font-weight: bold;font-size: 20px;}
+.main {
+    max-width:  1200px;
+    margin:  0 auto;
 }

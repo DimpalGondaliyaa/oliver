@@ -6,7 +6,7 @@ body{
 }
 nav {
     color:#666666;
-    background-color: transparent !important;
+    background:#ffffffed !important;
     width: 100%;
     height: 56px;
     line-height: 56px;
@@ -14,7 +14,6 @@ nav {
 }
 nav ul li a {
     color: #666666;
-    display: block;
     padding: 0 15px;
     cursor: pointer;
     font-family: 'Lato', sans-serif;
@@ -27,6 +26,40 @@ nav .nav-wrapper {
     height: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+.userreegbtn {
+    background: transparent !important;
+    color: #666 !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 17px !important;
+    text-transform: capitalize !important;
+    box-shadow: none !important;
+}
+
+.userlogbtn {
+    background: #fff !important;
+    box-shadow: none !important;
+    color: #00c1ec !important;
+    font-weight: bold !important;
+    text-transform: capitalize !important;
+    font-size: 17px !important;
+    border: 1.5px #00c1ecc7 !important;
+    border-style: inset !important;
+    border-radius: 10px !important;
+}
+button.none-btn {
+    background: transparent;
+    border: none;
+    padding: 25px;
+    font-weight: bold;
+    line-height: 0;
+    color: #666;
+    z-index: 0;
+}
+
+.sidenav-overlay{
+    z-index: 990 !important;
 }
 .max-width {
     position: relative;
@@ -78,6 +111,7 @@ a.sidenav-trigger {
 }
 
 
+
 /*Mobile Resposnive*/
 
 @media(max-width: 768px){
@@ -93,7 +127,7 @@ a.sidenav-trigger {
         display: none;
     }
 }*/
-a.waves-effect.waves-light.btn.userreegbtn {
+/*a.waves-effect.waves-light.btn.userreegbtn {
     background:  none;
     box-shadow:  none;
 }
@@ -106,3 +140,4 @@ a.waves-effect.waves-light.btn.userlogbtn {
     color: #00bfe8 !important;
 }
 
+*/

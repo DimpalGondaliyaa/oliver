@@ -52,28 +52,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-    <div class="navdiv">
-     <nav>
-        <div class="nav-wrapper homenavwapp">
-          <a href="<?php echo base_url(); ?>home" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png"></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down headul">
-            <li><a href="sass.html">J'achète</a></li>
-            <li><a href="badges.html">je Vends</a></li>
-            <li><a href="<?php echo base_url(); ?>Operation">fonctionnement </a></li>
-            <li><a href="collapsible.html">blog </a></li>
-            <li><a href="<?php echo base_url(); ?>Contact">Contact</a></li>
-            <li><a class="waves-effect waves-light btn userreegbtn">S'inscrire</a></li>
-            <li><a class="waves-effect waves-light btn userlogbtn">se connecter</a></li>
-          </ul>
-
-          <ul id="slide-out" class="sidenav">
+    <header>
+      <div class="main-header navbar-fixed">
+         <ul id="slide-out" class="sidenav">
           <li><a href="#!">First Sidebar Link</a></li>
           <li><a href="#!">Second Sidebar Link</a></li>
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="collapsible-header">Dropdown<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a href="#!">First</a></li>
+                    <li><a href="#!">Second</a></li>
+                    <li><a href="#!">Third</a></li>
+                    <li><a href="#!">Fourth</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
         </ul>
-        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
-        </div>
-     </nav>
-    </div>
+        <nav>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <div class="nav-wrapper">
+            <a href="#!" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png" class="responsive-img"></a>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="sass.html">J'achète</a></li>
+                  <li><a href="badges.html">je Vends</a></li>
+                  <li><a href="<?php echo base_url(); ?>Operation">fonctionnement </a></li>
+                  <li><a href="collapsible.html">blog </a></li>
+                  <li><a href="<?php echo base_url(); ?>Contact">Contact</a></li>
+                  <li><button class="none-btn"> | </button></li>
+                  <li><a class="waves-effect waves-light btn userreegbtn">S'inscrire</a></li>
+                  <li><a class="waves-effect waves-light btn userlogbtn">se connecter</a></li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </header>
 <body>
 
 
