@@ -70,3 +70,27 @@ ul#nav-mobile {
 ul#nav-mobile li a {
     color:  #666666;
 }
+
+
+
+a.sidenav-trigger {
+    color: #00c1ec;
+    padding: 0px 15px;
+}
+
+
+/*Mobile Resposnive*/
+
+@media(max-width: 768px){
+        nav .nav-wrapper {
+        position: relative;
+        height: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+/*@media(min-width: 768px){
+    .hide-on-med-and-down{
+        display: none;
+    }
+}*/

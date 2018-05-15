@@ -39,7 +39,7 @@
                   Resources
                 </div>
                 <ul class="aboutlist">
-                  <li><a href="#">FQA</a></li>
+                  <li><a href="#">FAQ</a></li>
                   <li><a href="#">Partners</a></li>
                   <li><a href="#">Contact Us</a></li>
                   </ul>

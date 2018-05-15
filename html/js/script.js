@@ -1,4 +1,7 @@
 $(function(){
+
+	$('.sidenav').sidenav();
+
 	baseurl = $("#base_url").val();
 
 	$(".userreegbtn").on("click",function()

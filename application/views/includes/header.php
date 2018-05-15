@@ -52,7 +52,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
-    <header>
+  <!--   <header>
          <nav>
             <div class="nav-wrapper">
               <a href="#" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png" class="responsive-img
@@ -64,22 +64,30 @@
               </ul>
             </div>
           </nav>
-    </header>
+    </header> -->
 <body>
 
     <div class="navdiv">
+
+
      <nav>
         <div class="nav-wrapper homenavwapp">
           <a href="#" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png"></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down headul">
-            <li><a href="sass.html">buy</a></li>
-            <li><a href="badges.html">sell</a></li>
-            <li><a href="collapsible.html">Operation </a></li>
+            <li><a href="sass.html">J'achète</a></li>
+            <li><a href="badges.html">je Vends</a></li>
+            <li><a href="collapsible.html">fonctionnement </a></li>
              <li><a href="collapsible.html">blog </a></li>
               <li><a href="<?php echo base_url(); ?>Contact">Contact</a></li>
-              <li><a class="waves-effect waves-light btn userreegbtn">register</a></li>
-              <li><a class="waves-effect waves-light btn userlogbtn">login</a></li>
+              <li><a class="waves-effect waves-light btn userreegbtn">S'inscrire</a></li>
+              <li><a class="waves-effect waves-light btn userlogbtn">se connecter</a></li>
           </ul>
+
+          <ul id="slide-out" class="sidenav">
+          <li><a href="#!">First Sidebar Link</a></li>
+          <li><a href="#!">Second Sidebar Link</a></li>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
 
         </div>
      </nav>
