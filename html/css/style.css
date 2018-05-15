@@ -6,7 +6,7 @@ body{
 }
 nav {
     color:#666666;
-    background-color: transparent !important;
+    background:#ffffffed !important;
     width: 100%;
     height: 56px;
     line-height: 56px;
@@ -14,7 +14,6 @@ nav {
 }
 nav ul li a {
     color: #666666;
-    display: block;
     padding: 0 15px;
     cursor: pointer;
     font-family: 'Lato', sans-serif;
@@ -27,6 +26,31 @@ nav .nav-wrapper {
     height: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+.userreegbtn {
+    background: transparent !important;
+    color: #666 !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 17px !important;
+    text-transform: capitalize !important;
+    box-shadow: none !important;
+}
+
+.userlogbtn {
+    background: #fff;
+    box-shadow: none;
+    color: #00c1ec;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 17px;
+    border: 1.5px #00c1ecc7;
+    border-style: inset;
+    border-radius: 10px;
+}
+
+.sidenav-overlay{
+    z-index: 990 !important;
 }
 .max-width {
     position: relative;
@@ -78,6 +102,7 @@ a.sidenav-trigger {
 }
 
 
+
 /*Mobile Resposnive*/
 
 @media(max-width: 768px){
@@ -93,7 +118,7 @@ a.sidenav-trigger {
         display: none;
     }
 }*/
-a.waves-effect.waves-light.btn.userreegbtn {
+/*a.waves-effect.waves-light.btn.userreegbtn {
     background:  none;
     box-shadow:  none;
 }
@@ -106,3 +131,4 @@ a.waves-effect.waves-light.btn.userlogbtn {
     color: #00bfe8 !important;
 }
 
+*/
