@@ -1,3 +1,6 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
 .main
 {
 	background: #F6F7F1;
@@ -49,6 +52,7 @@ a.btn.linka {
     width:  50%;
     margin:  0 auto;
     padding-top:  18px;
+    text-align: center;
 }
 
 .border-box {
@@ -69,4 +73,31 @@ a.waves-effect.waves-light.sendbtnn {
 .sendbtn a {
     text-align:  center;
     float:  right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a.btn.linka:hover {
+    background: #fff;
+    color: #003333;
+    border: 1px solid;
+    border-radius: 5px; 
+}
+.linkbox-content ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+.sendbtnn:hover {
+    background: #fff !important;
+    color: #003333;
+    border: 1px solid;
 }

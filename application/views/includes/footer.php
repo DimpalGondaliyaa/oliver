@@ -1,8 +1,7 @@
 
- <footer class="page-footer footerrr">
+ <footer class="page-footer">
           <div class="container">
-            <div class="row" style="    max-width: 1200px;
-    margin: 0 auto;">
+            <div class="row max-width">
               <div class="col s12 m2">
                 <div class="footerlogo">
                   <img src="<?php echo base_url(); ?>html/images/logo.png">
@@ -77,10 +76,9 @@
 </html>
 
 <style type="text/css">
-.footerrr
+footer
 {
-
-	background:  #666666;
+	background-color: #666666 !important;
 }
 .footertitle
 {
