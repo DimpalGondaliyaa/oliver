@@ -38,15 +38,24 @@ nav .nav-wrapper {
 }
 
 .userlogbtn {
-    background: #fff;
-    box-shadow: none;
-    color: #00c1ec;
+    background: #fff !important;
+    box-shadow: none !important;
+    color: #00c1ec !important;
+    font-weight: bold !important;
+    text-transform: capitalize !important;
+    font-size: 17px !important;
+    border: 1.5px #00c1ecc7 !important;
+    border-style: inset !important;
+    border-radius: 10px !important;
+}
+button.none-btn {
+    background: transparent;
+    border: none;
+    padding: 25px;
     font-weight: bold;
-    text-transform: capitalize;
-    font-size: 17px;
-    border: 1.5px #00c1ecc7;
-    border-style: inset;
-    border-radius: 10px;
+    line-height: 0;
+    color: #666;
+    z-index: 0;
 }
 
 .sidenav-overlay{

@@ -84,6 +84,7 @@
                     <li><a href="collapsible.html">fonctionnement </a></li>
                     <li><a href="collapsible.html">blog </a></li>
                     <li><a href="<?php echo base_url(); ?>Contact">Contact</a></li>
+                    <li><button class="none-btn"> | </button></li>
                     <li><a class="waves-effect waves-light btn userreegbtn">S'inscrire</a></li>
                     <li><a class="waves-effect waves-light btn userlogbtn">se connecter</a></li>
                 </ul>
