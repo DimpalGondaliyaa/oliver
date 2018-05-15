@@ -88,7 +88,7 @@
 						<div class="col s12 m10">
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 						</div>
-						<div class="col s12 m2">
+						<div class="col s12 m2" style="margin-bottom: 15px;">
 							<button class="btn btn-more-view"><i class="material-icons">send</i></button>
 						</div>
 					</div>

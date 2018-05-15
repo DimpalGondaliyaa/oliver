@@ -19,7 +19,7 @@
                       </div>
                   </div>
                   <div class="col s12 m4">
-                      <div class="s-box">
+                      <div class="s-box mid-box">
                           <img src="<?php echo base_url(); ?>html/images/des.png" class="responsive-img">
                           <h5>Gestion des litiges</h5>
                       </div>
@@ -74,8 +74,8 @@
                     <div class="col s12 m6">
                         <div class="xBox">
                             <div class="ttl-row" style="height: 100px;">
-                                <div class="col s12 m5"><h3>Vendeur</h3></div>
-                                <div class="col s12 m7"><span class="x-left col s12 m12">6,90€* ttc </span>
+                                <div class="col s5 m5"><h3>Vendeur</h3></div>
+                                <div class="col s7 m7"><span class="x-left col s12 m12">6,90€* ttc </span>
                                 <span class="seulement-box col s12 m12">seulement</span></div>
                             </div>
                             <div class="x-list">

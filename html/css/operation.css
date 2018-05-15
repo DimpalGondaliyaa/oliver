@@ -65,6 +65,7 @@ button.none-btn{
     margin: 0 auto;
     max-width: 1400px;
     padding: 25px 0px;
+    overflow: hidden;
 }
 .left-img img {
     height: 170px;
@@ -122,4 +123,38 @@ button.none-btn{
     border-radius: 50px;
     border: 1px solid;
     margin-top: 15px;
+    line-height: 50px;
+}
+.btn-more-view:hover, .btn-more-view:focus{
+    background: #fff;
+    color: #cc5a36;
+}
+.max-wide img {
+    box-shadow: 0px 5px 20px 0px #00000070;
+    border: 3px solid #00000070;
+}
+
+
+
+
+
+/*Media Resposnive*/
+
+@media(max-width: 768px){
+    .top-container-box{
+        padding: 0;
+    }
+    .left-img {
+        text-align: center;
+        padding-top: 25px;
+    }
+    .white-box-title{
+        padding: 0;
+    }
+    .max-wide .row{
+        padding: 0px;
+    }
+    .b-Box{
+        text-align: left;
+    }
 }

@@ -76,7 +76,7 @@
         <nav>
             <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <div class="nav-wrapper">
-            <a href="#!" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png" class="responsive-img"></a>
+            <a href="<?php echo base_url(); ?>Home" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png" class="responsive-img"></a>
               <ul class="right hide-on-med-and-down">
                   <li><a href="sass.html">J'achète</a></li>
                   <li><a href="badges.html">je Vends</a></li>
