@@ -31,6 +31,18 @@
                       </div>
                     </div>
                 </div>
+                <div class="search-container">
+                    <div class="row">
+                        <div class="search-box">
+                            <div class="col s12 m9">
+                            <input type="search" name="search" placeholder="Saisissez Votre Wixicode">
+                            </div>
+                            <div class="col s12 m3">
+                            <button type="button" name="searchData" class="btn btn-flat btn-search">Chercher</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
