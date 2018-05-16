@@ -6,6 +6,9 @@ class SellArticle extends CI_Controller {
 	
 	public function index()
 	{		
+		/*$user=$this->session->userdata('email');*/
+		$list=$this->db->query("SELECT * FROM products WHERE sell_by='ravi'");
+		$article=$list->result_array();
 		$headerData = array(
 			"pageTitle" => "SellArticle",
 			"stylesheet" => array("sellArticle.css")
@@ -15,7 +18,7 @@ class SellArticle extends CI_Controller {
 		);
 		$viewData = array(
 			"viewName" => "sellArticle",
-            "viewData" => array(),
+            "viewData" => array('article'=>$article),
 			"headerData" => $headerData,
 			"footerData" => $footerData	
 		);

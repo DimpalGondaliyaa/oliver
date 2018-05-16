@@ -1,8 +1,13 @@
 
 body{
-	font-family: 'Lato', sans-serif;
+	  font-family: 'Lato', sans-serif;
     color: #666;
     font-size: 17px;
+}
+dl, ol, ul {
+    margin-bottom: 1rem;
+    list-style-position: outside;
+    line-height: auto !important;
 }
 nav {
     color:#666666;
@@ -133,6 +138,7 @@ a.sidenav-trigger {
         max-width: 100%;
         margin: 0 auto;
     }
+    
 }
 /*@media(min-width: 768px){
     .hide-on-med-and-down{
@@ -318,6 +324,7 @@ a.waves-effect.waves-light.btn.userlogbtn {
 
 .sellArticle-formBox input[type="file"] {
     border: 1px solid #ddd !important;
+    line-height: 10px;
 }
 label[for="file-input"] {
   width: 100%;
