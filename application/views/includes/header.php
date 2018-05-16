@@ -66,7 +66,7 @@
             <a href="<?php echo base_url(); ?>Home" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png" class="responsive-img"></a>
               <ul class="right hide-on-med-and-down">
                   <li><a href="#">J'achète</a></li>
-                  <li><a href="#">je Vends</a></li>
+                  <li><a href="<?php echo base_url(); ?>SellArticle">je Vends</a></li>
                   <li><a href="<?php echo base_url(); ?>Operation">fonctionnement </a></li>
                   <li><a href="#">blog </a></li>
                   <li><a href="<?php echo base_url(); ?>Contact">Contact</a></li>

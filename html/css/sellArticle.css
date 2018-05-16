@@ -1,0 +1,13 @@
+/*sellArticle*/
+
+.sellArticle-container {
+    position: relative;
+}
+.sellArticle-box {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.sellArticle-formBox {
+    position: relative;
+}

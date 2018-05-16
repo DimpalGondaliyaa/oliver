@@ -34,12 +34,15 @@
                 <div class="search-container">
                     <div class="row">
                         <div class="search-box">
+                            <form name="serch" method="post" id="serch">
                             <div class="col s12 m9">
-                            <input type="search" name="search" placeholder="Saisissez Votre Wixicode">
+                            <input type="search" name="wixicode" id="wixicode" placeholder="Saisissez Votre Wixicode">
                             </div>
                             <div class="col s12 m3">
-                            <button type="button" name="searchData" class="btn btn-flat btn-search">Chercher</button>
+                                <a href="<?php echo base_url(); ?>SearchResult" class="btn btn-flat btn-search">Chercher</a>
+                           <!--  <button type="button" name="searchData" class="btn btn-flat btn-search">Chercher</button> -->
                             </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -161,7 +164,7 @@
                             <h6>découvrez vos avantages <a class=" btn-floating btn-large waves-effect waves-light viewmorewbtn"><i class="material-icons">send</i></a></h6>
                         </div>
                     </div>
-                </div><button class="bubbly-button">Click me!</button>
+                </div><!-- <button class="bubbly-button">Click me!</button> -->
                 </div>
             </div>
         </div>
