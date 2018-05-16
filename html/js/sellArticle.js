@@ -1,6 +1,8 @@
 /*sellArticle*/
 $(function(){
 
+	 $('#example').DataTable({responsive: true});
+
 	$(".btn-sell").on("click",function()
 	{
 		var title = document.forms["sellArticleForm"]["title"].value;

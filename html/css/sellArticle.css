@@ -3,6 +3,7 @@
 .sellArticle-container {
     position: relative;
 }
+
 .sellArticle-box {
     position: relative;
     max-width: 1200px;
@@ -10,4 +11,81 @@
 }
 .sellArticle-formBox {
     position: relative;
+    overflow: hidden;
+    border: 2px dashed #ddd;
+    margin-top: 25px;
+    padding: 25px;
+}
+.articleBox{
+
+	position: relative;
+    overflow: hidden;
+    border: 2px dashed #ddd;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.title {
+    position: relative;
+    padding: 25px 0px;
+}
+
+/*.form-bx{
+	border: 2px dashed #ddd;
+    padding-right: 0px !important;
+}
+*/
+.title h4 {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    color: #666;
+}
+
+
+
+
+
+.articleList-container {
+    position: relative;
+}
+.article-box {
+    position: relative;
+    padding: 25px;
+}
+.articleBox{
+	position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+td img.responsive-img {
+    height: 70px;
+    width: auto;
+    object-fit: cover;
+    width: 70px;
+    border: 2px solid #aba8a8;
+    border-radius: 50px;
+}
+
+td a i.fas.fa-edit {
+    background: #027c9630;
+    color: #066a80;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 35px;
+    padding: 3px;
+    border: 1px solid;
+}
+td a i.fas.fa-trash {
+    background: #ad505030;
+    color: #840b0b;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 35px;
+    padding: 3px;
+    border: 1px solid;
 }
