@@ -25,6 +25,17 @@
     position: relative;
     padding: 25px;
 }
+
+a.footerbtn.waves-effect.waves-light.btn.userreegbtn {
+    background: #00ccff !important;
+    color: #fff !important;
+    font-size: 17px !important;
+    font-weight:  400;
+    text-transform: uppercase !important;
+    text-shadow: 0px 2px 4px #b95858b0;
+    box-shadow: 0px 2px 4px #867e7e !important;
+}
+
 .x-box-container {
     position: relative;
     max-width: 1200px;
@@ -292,7 +303,7 @@ span.x-left {
 a.btn-floating.btn-large.waves-effect.waves-light.viewmorewbtn i {
     line-height:  1;
     font-size:  24px;
-
+}
 
 
 .mid-box{
