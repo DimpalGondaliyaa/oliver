@@ -161,7 +161,7 @@
                             <h6>découvrez vos avantages <a class=" btn-floating btn-large waves-effect waves-light viewmorewbtn"><i class="material-icons">send</i></a></h6>
                         </div>
                     </div>
-                </div><button class="bubbly-button">Click me!</button>
+                </div><!-- <button class="bubbly-button">Click me!</button> -->
                 </div>
             </div>
         </div>
