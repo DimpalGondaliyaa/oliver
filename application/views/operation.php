@@ -32,8 +32,8 @@
 				</div>
 				<div class="col s12 m8">
 					<div class="descr">
-						<p><b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </b></p>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						<p><b>David et  marie  créent chacun leur compte sur wixicode.fr </b></p>
+						<p>c'est simple et c'ust gratu it.</p>
 					</div>
 				</div>
 			</div>
@@ -43,8 +43,8 @@
 				</div>
 				<div class="col s12 m8">
 					<div class="descr">
-						<p><b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </b></p>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						<p><b>David cree la fiche de son article ct genere un wixicode qu'il diffuse dans ses petites annonces. </b></p>
+						<p>la création d'un wixicode est gratuite. </p>
 					</div>
 				</div>
 			</div>
@@ -54,8 +54,8 @@
 				</div>
 				<div class="col s12 m8">
 					<div class="descr">
-						<p><b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </b></p>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						<p><b>marie vient de tomber sur la petite annonce de David. </b></p>
+						<p>grâce au wixicode laissé par David dans ce petite annonce elle accece immadiatement a la fiche de l' article sur wixicode tret l' achete en toute securite ouisque l' argent ne sera donne a davie que lorsqu'elle aura recu son joli nouveau telephone. </p>
 					</div>
 				</div>
 			</div>
@@ -65,8 +65,8 @@
 				</div>
 				<div class="col s12 m8">
 					<div class="descr">
-						<p><b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </b></p>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						<p><b>David reçoit un mail l'informant de la vente de son téléphone.</b></p>
+						<p>apres vérification du paiement de marie nous l'informons qu'il peut expedier le colis en toute securite. </p>
 					</div>
 				</div>
 			</div>
@@ -76,14 +76,28 @@
 				</div>
 				<div class="col s12 m8">
 					<div class="descr">
-						<p><b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </b></p>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						<p><b>marie est contente son nouveau téléphone vient d'arriver. </b></p>
+						<p>il ne lui reste plus qu'à valider la transaction sur wixicode</p>
+						<p>grâce à wikicode elle a jou acheter son nouveau téléphone auprès d'un particulier en loute sécurité el trouve que wixicode ç'est vraiment génial.</p>
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="bottom-box">
+				<div class="col s12 m4 right">
+					<img src="<?php echo base_url(); ?>html/images/placeholder-blue.png" class="responsive-img">
+				</div>
+				<div class="col s12 m8">
+					<div class="descr">
+						<p><b>David est content il a pu vendre son téléphone en toute sécurité grâce à wixicode</b></p>
+						<p>ll va tres rapidement recevoir le montant de sa vente directement sur son comple bancaire.</p>
+						<p>ll se demande comment il a pu se passer de wixicode si longtemps.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="bottom-box ">
 					<div class="b-Box valign-wrapper">
 						<div class="col s12 m10">
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -97,3 +111,4 @@
 		</div>
 	</div>
 </div>
+

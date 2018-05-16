@@ -40,4 +40,11 @@ class Home extends CI_Controller {
 		echo json_encode($ress);
 	}
 
+	public function logout()
+	{
+		$this->session->unset_userdata('email');
+        $this->session->sess_destroy();
+		header("Location:".base_url()."home");
+	}
+
 }
