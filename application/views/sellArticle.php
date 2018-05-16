@@ -26,7 +26,9 @@
 					</form>
 					</div>
 					<div class="col s12 m6">
-						
+						<div class="imgBox">
+							<img src="<?php echo base_url();?>html/images/chart-graph-icon.png" class="responsive-img">
+						</div>
 					</div>
 				</div>
 			</div>

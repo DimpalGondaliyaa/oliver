@@ -89,3 +89,6 @@ td a i.fas.fa-trash {
     padding: 3px;
     border: 1px solid;
 }
+li.paginate_button.current {
+    background: #00bfe8;
+}
