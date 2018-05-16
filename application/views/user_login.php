@@ -10,7 +10,7 @@
         </div>
 
         <div class="input-field col s12 m12">
-          <input placeholder="password"  id="password" name="password" type="text" class="validate">
+          <input placeholder="password"  id="password" name="password" type="password" class="validate">
         </div>
     </div>
 </form>

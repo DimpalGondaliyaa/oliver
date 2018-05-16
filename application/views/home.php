@@ -34,12 +34,15 @@
                 <div class="search-container">
                     <div class="row">
                         <div class="search-box">
+                            <form name="serch" method="post" id="serch">
                             <div class="col s12 m9">
-                            <input type="search" name="search" placeholder="Saisissez Votre Wixicode">
+                            <input type="search" name="wixicode" id="wixicode" placeholder="Saisissez Votre Wixicode">
                             </div>
                             <div class="col s12 m3">
-                            <button type="button" name="searchData" class="btn btn-flat btn-search">Chercher</button>
+                                <a href="<?php echo base_url(); ?>SearchResult" class="btn btn-flat btn-search">Chercher</a>
+                           <!--  <button type="button" name="searchData" class="btn btn-flat btn-search">Chercher</button> -->
                             </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -173,8 +176,10 @@
                     <h4>créez votre compte et générez vos wikicode gratuitement des maintenant</h4>
                 </div>
                 <div class="center">
-                   <!--  <a class="footerbtn waves-effect waves-light btn userreegbtn">S'Incription</a> -->
-                    <button type="button" class="btn bnt-flat btn-sky">Incription</button>
+
+                    <a class="footerbtn waves-effect waves-light btn userreegbtn btn-sky">Incription</a>
+                  <!--   <button type="button" class="btn bnt-flat btn-sky ">Incription</button> -->
+
                 </div>
                 <div>
                     <p class="b-tg">Si Vous avez des questions consultez notre <span>FAQ</span> ou <span>Contactez-nous</span></p>

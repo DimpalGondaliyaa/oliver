@@ -40,4 +40,25 @@ class Home extends CI_Controller {
 		echo json_encode($ress);
 	}
 
+	public function logout()
+	{
+		$this->session->unset_userdata('email');
+        $this->session->sess_destroy();
+		header("Location:".base_url()."home");
+	}
+
+	public function serchwixidata()
+	{
+		
+		$w = $_POST['wixicode'];
+		$w1 = $this->db->query("select * from products where wixicode='$w'");
+		$w2 = $w1->row_array();
+
+		if($w2>0)
+		{
+			$this->session->set_userdata("wixicode",$w);
+		}
+
+	}
+
 }

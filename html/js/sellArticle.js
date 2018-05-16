@@ -33,6 +33,7 @@ $(function(){
 	          {
 	           swal("Send Successfully.");
 	           /*window.location.reload();*/
+	           
 	          }
 	        });
 	    }

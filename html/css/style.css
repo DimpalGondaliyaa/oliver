@@ -53,6 +53,18 @@ nav .nav-wrapper {
     border-style: inset !important;
     border-radius: 10px !important;
 }
+
+.logoutt {
+    background: #fff !important;
+    box-shadow: none !important;
+    color: #00c1ec !important;
+    font-weight: bold !important;
+    text-transform: capitalize !important;
+    font-size: 17px !important;
+    border: 1.5px #00c1ecc7 !important;
+    border-style: inset !important;
+    border-radius: 10px !important;
+}
 button.none-btn {
     background: transparent;
     border: none;

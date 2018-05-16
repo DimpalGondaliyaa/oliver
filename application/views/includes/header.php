@@ -80,14 +80,18 @@
             <div class="nav-wrapper">
             <a href="<?php echo base_url(); ?>Home" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png" class="responsive-img"></a>
               <ul class="right hide-on-med-and-down">
-                  <li><a href="sass.html">J'achète</a></li>
-                  <li><a href="badges.html">je Vends</a></li>
+                  <li><a href="#">J'achète</a></li>
+                  <li><a href="<?php echo base_url(); ?>SellArticle">je Vends</a></li>
                   <li><a href="<?php echo base_url(); ?>Operation">fonctionnement </a></li>
-                  <li><a href="collapsible.html">blog </a></li>
+                  <li><a href="#">blog </a></li>
                   <li><a href="<?php echo base_url(); ?>Contact">Contact</a></li>
                   <li><button class="none-btn"> | </button></li>
+                  <?php if ($this->session->userdata("email")==""){ ?>
                   <li><a class="waves-effect waves-light btn userreegbtn">S'inscrire</a></li>
                   <li><a class="waves-effect waves-light btn userlogbtn">se connecter</a></li>
+                  <?php } else{ ?>
+                     <li><a class="waves-effect waves-light btn logoutt" href="<?php echo base_url(); ?>home/logout">Connectez - Out</a></li>
+                  <?php } ?>
               </ul>
             </div>
         </nav>
