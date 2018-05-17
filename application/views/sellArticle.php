@@ -9,6 +9,21 @@
 						<h4>Sell Article</h4>
 					</div>
 					
+					<form method="post" class="form-horizontal" id="formListen" class="formListen" role="form" action="<?= base_url() ?>SellArticle/create_payment_with_paypal">
+                    
+                        <input title="item_name" name="item_name" type="hidden" value="wixicode">
+                        <input title="item_number" name="item_number" type="hidden" value="1">
+                        <input title="item_description" name="item_description" type="hidden" value="wixicode description">
+                        <input title="item_tax" name="item_tax" type="hidden" value="1">
+                        <input title="item_price" name="item_price" type="hidden" value="1">
+                        <input title="details_tax" name="details_tax" type="hidden" value="0">
+                        <input title="details_subtotal" name="details_subtotal" type="hidden" value="1">
+                        <button id="payBtn" <?php if($this->session->userdata('email')==''){ ?> disabled <?php } ?> class="waves-effect waves-light btn btn-flat btn-listen hide" type="submit">
+                        	<i class="fas fa-headphones"></i>&nbsp; Listen</button>
+                        
+                    </form>
+                    
+
 					<form class="form" name="sellArticleForm" id="sellArticleForm" method="POST" enctype="multipart/form-data">
 						<div class="col s11 m11">
 							<input type="text" name="title" id="title" placeholder="Enter Title">

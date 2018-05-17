@@ -1,5 +1,6 @@
 $(function(){
 
+	$(".dropdown-trigger").dropdown();
 
 	var animateButton = function(e) {
 

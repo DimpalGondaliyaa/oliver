@@ -138,6 +138,9 @@ a.sidenav-trigger {
         max-width: 100%;
         margin: 0 auto;
     }
+   .modal {
+      width: 90% !important;
+    }
     
 }
 /*@media(min-width: 768px){
@@ -361,4 +364,15 @@ input[type="file"]::-webkit-file-upload-button :hover {
   padding: 1em 2em;
   cursor: pointer;
   color: #fff;
+}
+/*
+ul .dropdown-content{
+      width: auto !important;
+}*/
+/*.dropdown-content li>a, .dropdown-content li>span{
+  width: auto !important;
+}*/
+
+ul#user {
+    width: max-content !important;
 }

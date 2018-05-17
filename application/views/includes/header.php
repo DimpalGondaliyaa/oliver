@@ -57,28 +57,45 @@
     <header>
       <div class="main-header navbar-fixed">
          <ul id="slide-out" class="sidenav">
-          <li><a href="#!">First Sidebar Link</a></li>
-          <li><a href="#!">Second Sidebar Link</a></li>
+          <li><a href="#">J'achète</a></li>
+          <li><a href="<?php echo base_url(); ?>SellArticle">je Vends</a></li>
+          <li><a href="<?php echo base_url(); ?>Operation">fonctionnement </a></li>
+          <li><a href="#">blog </a></li>
+          <li><a href="<?php echo base_url(); ?>Contact">Contact</a></li>
+          <?php if ($this->session->userdata("email")==""){ ?>
+            <li><a class="waves-effect waves-light btn userreegbtn">S'inscrire</a></li>
+            <li><a class="waves-effect waves-light btn userlogbtn">se connecter</a></li>
+          <?php } else { ?>
           <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
               <li>
-                <a class="collapsible-header">Dropdown<i class="material-icons">arrow_drop_down</i></a>
+                <a class="collapsible-header"><?php echo $this->session->userdata('email'); ?><i class="material-icons">arrow_drop_down</i></a>
                 <div class="collapsible-body">
                   <ul>
-                    <li><a href="#!">First</a></li>
-                    <li><a href="#!">Second</a></li>
-                    <li><a href="#!">Third</a></li>
-                    <li><a href="#!">Fourth</a></li>
+                    <li><a href="#!">Profile</a></li>
+                    <li><a href="#!">Setting</a></li>
+                    <li class="divider"></li>
+                    <li class="active"><a href="<?php echo base_url(); ?>home/logout">Connectez - Out</a></li>
                   </ul>
                 </div>
               </li>
             </ul>
           </li>
+        <?php } ?>
         </ul>
         <nav>
             <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <div class="nav-wrapper">
             <a href="<?php echo base_url(); ?>Home" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png" class="responsive-img"></a>
+
+            <!-- Dropdown Structure -->
+              <ul id="user" class="dropdown-content" style="width: auto !important;">
+                <li><a href="#!">Profile</a></li>
+                <li><a href="#!">Setting</a></li>
+                <li class="divider"></li>
+                <li class="active"><a href="<?php echo base_url(); ?>home/logout">Connectez - Out</a></li>
+                <!-- <li><a class="waves-effect waves-light btn logoutt" href="<?php echo base_url(); ?>home/logout">Connectez - Out</a></li> -->
+              </ul>
               <ul class="right hide-on-med-and-down">
                   <li><a href="#">J'achète</a></li>
                   <li><a href="<?php echo base_url(); ?>SellArticle">je Vends</a></li>
@@ -90,7 +107,7 @@
                   <li><a class="waves-effect waves-light btn userreegbtn">S'inscrire</a></li>
                   <li><a class="waves-effect waves-light btn userlogbtn">se connecter</a></li>
                   <?php } else{ ?>
-                     <li><a class="waves-effect waves-light btn logoutt" href="<?php echo base_url(); ?>home/logout">Connectez - Out</a></li>
+                     <li><a class="dropdown-trigger" href="#!" data-target="user"><?php echo $this->session->userdata('email'); ?><i class="material-icons right">arrow_drop_down</i></a></li>
                   <?php } ?>
               </ul>
             </div>

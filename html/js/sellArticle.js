@@ -32,6 +32,7 @@ $(function(){
 	          success:function(res)
 	          {
 	           swal("Send Successfully.");
+	           $('#payBtn').click();
 	           /*window.location.reload();*/
 	           
 	          }

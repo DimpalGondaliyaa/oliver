@@ -18,7 +18,7 @@
 
 <style type="text/css">
 /*==========================model css=====================*/
-.modal.modal-fixed-footer {
+/*.modal.modal-fixed-footer {
     padding: 0;
     height: 49% !important;
     width: 26% ;
@@ -29,7 +29,7 @@ input.validate {
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  text-transform: capitalize;
+  /*text-transform: capitalize;
 }
 
 .user-register {
@@ -37,5 +37,5 @@ input.validate {
     text-transform: capitalize;
     font-weight: 500;
     color: #666666;
-}
+}*/
 </style>
