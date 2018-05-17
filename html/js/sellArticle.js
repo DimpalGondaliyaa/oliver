@@ -5,11 +5,16 @@ $(function(){
 
 	$(".btn-sell").on("click",function()
 	{
+		var usr = document.forms["sellArticleForm"]["usr"].value;
 		var title = document.forms["sellArticleForm"]["title"].value;
 		var product = document.forms["sellArticleForm"]["product"].value;
 		var price = document.forms["sellArticleForm"]["price"].value;
 
-		if(title==''){
+		if(usr==''){
+			swal("Please Login First");
+			return false;
+		}
+		else if(title==''){
 			swal("Please Enter Product Title");
 			return false;
 		}

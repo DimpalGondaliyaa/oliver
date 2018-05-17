@@ -22,7 +22,7 @@
                         	<i class="fas fa-headphones"></i>&nbsp; Listen</button>
                         
                     </form>
-                    
+
 
 					<form class="form" name="sellArticleForm" id="sellArticleForm" method="POST" enctype="multipart/form-data">
 						<div class="col s11 m11">
@@ -33,6 +33,7 @@
 						</div>
 						<div class="col s11 m11">
 							<input type="text" name="price" placeholder="Enter price">
+							<input type="hidden" name="usr" id="usr" value="<?php echo $this->session->userdata('email'); ?>">
 						</div>
 						<div class="col s11 m11">
 							<button type="button" name="Sell" value="Sell" class="bubbly-button btn-sell">Sell Article</button>
